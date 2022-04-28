@@ -1,0 +1,170 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+h1,h2,h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p,h4{
+  color: #8f8f8f;
+}
+
+/* title section */
+
+#title{
+  background-color: #FF6363;
+  text-align: left;
+}
+.container-fluid{
+  padding: 2% 10%;
+}
+
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 3rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 1rem;
+}
+
+.nav-link{
+font-family: "Montserrat";
+font-size: 1.2rem;
+}
+
+/* Download button */
+.download-button{
+  margin: 5% 5% 5% 0;
+}
+
+/* title img */
+
+.zoomato{
+  width: 90%;
+  transform: rotate(25deg);
+}
+
+/* features section */
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.features-box{
+  padding: 5% 2%;
+}
+
+.icon{
+  color: #FFA1A1;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #FF6363;
+}
+
+/* review section */
+
+#review{
+  background-color: #FFA1A1;
+  
+}
+
+.review-text{
+  padding: 1rem;
+  line-height: 4rem;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.review-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+#press{
+  padding: 3rem;
+  background-color: #FFA1A1;
+}
+
+.press-logo{
+  width: 20%;
+  padding: 3rem 3rem 5rem;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 8rem;
+  background-color: #EEF2FF;
+}
+
+.pricing-heading{
+font-size: 3rem;
+line-height: 10rem;
+}
+
+.pricing-text{
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.pricing-cloumn{
+  padding: 1rem 1rem;
+}
+
+/* call to action */
+
+#cta{
+  background-color: #FF6363;
+  font-weight: 5rem;
+  padding: 7% 10%;
+}
+
+.cta-heading{
+  font-size: 2.5rem;
+  line-height: 4rem;
+}
+
+/* footer section */
+
+#footer{
+  padding: 7% 15%;
+}
+
+
+/* mobile size */
+
+
+@media (max-width : 1000px) {
+  .container-fluid{
+    text-align: center;
+  }
+  .zoomato{
+    transform: rotate(0);
+  }
+}
